@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Inicial | 2</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Lista de Tarefas</h1>
+            <input type="text" id="inputTarefa" placeholder="Digite a sua tarefa">
+            <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+            <button id="btnLimpar" style="display: none;" onclick="limparLista()" class="botao_lista">Limpar Tudo</button>
+            <p id="alerta"></p>
+            <p id="tarefaAdicionada"></p>
+            <ul id="listaTarefas"></ul>
+        </div>
+    </body>
+    <script src="script2.js"></script>
+</html>
