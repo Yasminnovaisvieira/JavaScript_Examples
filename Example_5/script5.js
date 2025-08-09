@@ -5,7 +5,7 @@ let nomeUsuario = prompt("Digite o seu nome: ");
 alert("Olá, " + nomeUsuario + "!");
 console.log("Olá, " + nomeUsuario + "!");
 
-console.log(" ");
+console.log("  ");
 
 
 /* Exercício 2 */
@@ -25,7 +25,7 @@ let dataHoje = prompt("Digite a data de hoje: ");
 alert("A data de hoje segundo o usuário é: " + dataHoje);
 console.log("A data de hoje segundo o usuário é: " + dataHoje);
 
-console.log(" ");
+console.log("  ");
 
 
 /* Exercício 4 */
@@ -35,7 +35,7 @@ let preparado = prompt("Está preparado para o segundo semestre de Desenvolvimen
 alert("A resposta do usuário é: " + preparado);
 console.log("A resposta do usuário é: " + preparado);
 
-console.log(" ");
+console.log("  ");
 
 
 /* Exercício 5 */
@@ -63,7 +63,7 @@ console.log("O resultado da multiplicação de " + numero1 + " com " + numero2 +
 alert("O resultado da divisão de " + numero1 + " com " + numero2 + " é igual a: " + resultadoDivisao);
 console.log("O resultado da divisão de " + numero1 + " com " + numero2 + " é igual a: " + resultadoDivisao);
 
-console.log(" ");
+console.log("  ");
 
 
 /* Exercício 6 */
@@ -76,7 +76,7 @@ let mediaProvas = (prova1 + prova2 + prova3) / 3;
 alert("A média das provas é igual a: " + mediaProvas);
 console.log("A média das provas é igual a: " + mediaProvas);
 
-console.log(" ");
+console.log("  ");
 
 
 /* Exercício 7 */
