@@ -218,22 +218,23 @@ else {
 /* Exercício 10 */
 
 alert("Calculando a duração em horas de um jogo de Xadrez.");
-let dias = Number(prompt("Digite quantos dias o jogo durou (mínimo 0):"));
+let dias = Number(prompt("Calculo da duração de horas em um jogo de xadrez.\nDigite quantos dias o jogo durou (mínimo 0):"));
 let inicio = Number(prompt("Digite a hora de início do jogo (0 a 23):"));
 let fim = Number(prompt("Digite a hora de fim do jogo (0 a 23):"));
 
-if (isNaN(inicio) || isNaN(fim)) {
+if (isNaN(dias) || dias < 0 || isNaN(inicio) || inicio < 0 || inicio > 23 || isNaN(fim) || fim < 0 || fim > 23) {
     alert("Pelo menos um dos valores informados é inválido! Tente novamente.");
-}
+} 
+
 else {
     let duracao = (dias * 24) + (fim - inicio);
 
-    if (fim <= inicio) {
+    if (dias === 0 && fim <= inicio) {
         duracao += 24;
     }
+}
 
     alert("A duração total do jogo foi de " + duracao + " hora(s)!");
-}
 
 
 /* Exercício 11 */
